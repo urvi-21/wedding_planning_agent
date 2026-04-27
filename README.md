@@ -103,8 +103,6 @@ Final Structured Plan
 
 <img width="941" height="431" alt="image" src="https://github.com/user-attachments/assets/5717a01c-5950-42b9-8291-6677af57b118" />
 
-<img width="882" height="760" alt="image" src="https://github.com/user-attachments/assets/3d36983c-4e64-492f-96fb-3e56d3a9a577" />
-
 ---
 
 ## 🧠 Tech Stack
@@ -157,7 +155,7 @@ cd ai-wedding-planner
 
 ### 2. Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -181,7 +179,7 @@ export GROQ_API_KEY="your_api_key"
 
 ### 4. Run the App
 
-```bash
+```
 streamlit run app.py
 ```
 
@@ -207,29 +205,6 @@ Misc: ₹50,000
 
 ---
 
-## 🧠 Key Engineering Decisions
-
-### 1. Hybrid System (LLM + Logic)
-
-* Avoids over-reliance on hallucinated outputs
-* Ensures critical components (budget, timeline) remain deterministic
-
----
-
-### 2. Structured Prompting
-
-* Enforces predictable output for UI rendering
-* Prevents LLM drift
-
----
-
-### 3. ReAct Agent Pattern
-
-* Enables tool-based reasoning instead of static pipelines
-* Scalable to more tools (APIs, DBs, etc.)
-
----
-
 ## 🔮 Future Improvements
 
 * 🔍 Real-time vendor search via APIs (Google Places / Foursquare)
@@ -239,23 +214,6 @@ Misc: ₹50,000
 * 🧠 Memory-enabled conversational planning
 * 📊 Budget optimization via ML models
 
----
-
-## 🎯 Why This Project Matters
-
-This project demonstrates:
-
-* Practical application of **LangChain agents**
-* Designing **tool-augmented AI systems**
-* Balancing **LLM flexibility with deterministic logic**
-* Building **end-to-end AI products**, not just models
-
----
-
-## 👩‍💻 Author
-
-**Urvi Patel**
-Biomedical Engineering @ NIT Raipur
 
 ---
 
