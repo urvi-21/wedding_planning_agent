@@ -1,4 +1,4 @@
-# 💍 AI Wedding Planner — LangChain Agent-Based System
+# 💍 AI Wedding Planner 
 
 An intelligent, tool-augmented wedding planning assistant that transforms a simple user query into a **structured, actionable wedding plan**—including budget allocation, vendor recommendations, and a complete timeline.
 
